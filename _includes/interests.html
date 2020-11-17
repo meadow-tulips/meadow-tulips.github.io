@@ -1,0 +1,17 @@
+{% assign interests = site.data.profile.cv.interests %}
+{% if interests %}
+  <div class="interests-container container-block">
+    <h3 class="container-block-title">
+      Interests
+    </h3>
+    <div class="grid grid-max-content-1fr grid-gar-2">
+    {% for lists in interests %}
+        <div>
+                {% for item in lists %}
+                <li>{{ item }}</li>
+                {% endfor %}
+        </div>
+    {% endfor %}
+    </div>
+  </div>
+  {% endif %}

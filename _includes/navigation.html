@@ -1,0 +1,21 @@
+{% assign navigation = site.data.navigation.data.navigationArray %}
+{% assign name = site.data.profile.cv.name %}
+{% if navigation %}
+  <nav class="bg-purple">
+        {% if name %}
+            <li class="only-mobile">
+            {{ name }}
+            </li>
+        {% endif %}
+      <div class="wrap">
+        {% for item in navigation %}
+            {% if item.ref %}
+              <li><a href={{ item.ref }}>{{ item.display }}</a></li>
+            {% elsif item.display  %}
+              <li>{{ item.display }}</li>
+            {% else %}
+            {% endif %}
+        {% endfor %}
+    </div>
+  </nav>
+  {% endif %}

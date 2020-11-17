@@ -1,0 +1,32 @@
+{% assign cv = site.data.profile.cv %}
+{% assign education = site.data.profile.cv.education %}
+{% assign highestEducation = education[0] %}
+{% assign socialMedia = site.data.profile.cv.social-media %}
+
+    {% if cv %}
+        <div class="text-center pt-1 px-1 color-white sidebar-profile">
+            <div class="profile-picture" >
+            </div>
+            <h1 class="profile-name">{{ cv.name }}</h1>
+            {% if highestEducation %}
+                <p class="my-1">{{ highestEducation.degree }} in {{ highestEducation.subject }}. {{ highestEducation.university }}</p>
+            {% endif %}
+           <div class="my-2"> 
+                <p class="mb-8px ">{{ cv.email }}</p>
+                <p>{{ cv.phone-number }}</p>
+           </div>
+           {% if socialMedia %}
+           <div class="icons">
+               <ul>
+                   {% for item in socialMedia %}
+                   <li><img src="../assets/cv/images/social-media-icons/{{item}}.svg"></li>
+                   {% endfor %}
+               </ul>
+           </div>
+           {% endif %}
+           <button class="p-1 my-2 bg-white color-purple">
+               Download Resume
+           </button>
+        </div>
+
+    {% endif %}

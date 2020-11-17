@@ -1,0 +1,213 @@
+I">
+<nav class="bg-purple">
+        
+            <li class="only-mobile">
+            Avan Sharma
+            </li>
+        
+      <div class="wrap">
+        
+            
+              <li>&lt;a href=#&gt;About&lt;/a&gt;</li>
+            
+        
+            
+              <li>&lt;a href=#work-exp&gt;Work &amp; Experience&lt;/a&gt;</li>
+            
+        
+            
+              <li>&lt;a href=#&gt;Contact us&lt;/a&gt;</li>
+            
+        
+            
+              <li>&lt;a href=#awards&gt;Awards&lt;/a&gt;</li>
+            
+        
+    </div>
+  </nav>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    &lt;div class="cover"&gt;
+        &lt;div class="relative"&gt;
+            &lt;div class="cover-content color-white"&gt;
+                    &lt;span class="block greeting"&gt;Hello, I'm&lt;/span&gt;
+                    &lt;span class="block name"&gt;Avan Sharma&lt;/span&gt;
+                    &lt;span class="block designation"&gt;front end developer&lt;/span&gt;
+            &lt;/div&gt;
+        &lt;div class="parallax-container"&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+        
+
+
+
+
+
+    &lt;div class="text-center pt-1 px-1 color-white sidebar-profile"&gt;
+        &lt;div class="profile-picture" &gt;
+        &lt;/div&gt;
+        &lt;h1 class="profile-name"&gt;Avan Sharma&lt;/h1&gt;
+        
+            &lt;p class="my-1"&gt;B.Tech in Computer Science &amp; Engineering. Gitam University - Bangalore&lt;/p&gt;
+        
+       &lt;div class="my-2"&gt; 
+            &lt;p class="mb-8px "&gt;avan.sharma@hotmail.com&lt;/p&gt;
+            &lt;p&gt;+91 9741578903&lt;/p&gt;
+       &lt;/div&gt;
+       
+       &lt;div class="icons"&gt;
+           &lt;ul&gt;
+               
+               &lt;li&gt;&lt;img src="../assets/cv/images/social-media-icons/linkedin.svg"&gt;&lt;/li&gt;
+               
+               &lt;li&gt;&lt;img src="../assets/cv/images/social-media-icons/github.svg"&gt;&lt;/li&gt;
+               
+               &lt;li&gt;&lt;img src="../assets/cv/images/social-media-icons/facebook.svg"&gt;&lt;/li&gt;
+               
+               &lt;li&gt;&lt;img src="../assets/cv/images/social-media-icons/twitter.svg"&gt;&lt;/li&gt;
+               
+           &lt;/ul&gt;
+       &lt;/div&gt;
+       
+       &lt;button class="p-1 my-2 bg-white color-purple"&gt;
+           Download Resume
+       &lt;/button&gt;
+    &lt;/div&gt;
+
+
+    &lt;/div&gt;
+</code></pre></div></div>
+
+<section class="wrapper">
+    <!-- 
+    
+        <header>
+            <div class="profile-picture" >
+            </div>
+            <h1 class="profile-name">Avan Sharma</h1>
+            <p class="designation">front end developer</p>
+        </header>
+
+     -->
+    <section class="work-education" id="work-exp">
+        <div class="main">
+            <h3 class="container-block-title text-center py-2 border-bottom">
+                EXPERIENCE
+            </h3>
+            
+
+<div class="container my-3">
+    
+    <div class="item three-column-layout wrap">
+      <div class="layout-item right">
+        <p class="heading">2018 - Current</p>
+        <p class="heading-2 capitalize">Front end developer</p>
+     </div>
+     <div class="dummyline"><span class="bullet"></span></div>
+     <div class="layout-item left">
+          <p class="heading-2">Zopsmart</p>
+          <p>Have been part of the Zopsmart's frontend team for the past two years now &amp; have worked on React.js, Next.js, Typescript, Redux based projects. Part of my responsibility also includes mentoring new hires, helping them understand the basic work flow of the product, doing their code-reviews.</p>
+      </div>
+    </div><!--//item-->
+    
+    <div class="item three-column-layout wrap">
+      <div class="layout-item right">
+        <p class="heading">2016 May - 2017 June</p>
+        <p class="heading-2 capitalize">Intern</p>
+     </div>
+     <div class="dummyline"><span class="bullet"></span></div>
+     <div class="layout-item left">
+          <p class="heading-2">Monty Holding</p>
+          <p>Worked as an intern here. Got introduced to SS7 stack. Was part of a team which worked on a missed call alert SMS solution.</p>
+      </div>
+    </div><!--//item-->
+    
+  </div>
+  
+
+            <h3 class="container-block-title text-center py-2 border-bottom border-top">
+                EDUCATION
+            </h3>
+            
+
+ <div class="container my-3">
+    
+    <div class="item three-column-layout wrap">
+        <div class="layout-item right">
+          <p class="heading">2013 - 2017</p>
+          <p class="heading-2 capitalize">B.Tech</p>
+       </div>
+       <div class="dummyline"><span class="bullet"></span></div>
+       <div class="layout-item left">
+            <p class="heading-2">Gitam University - Bangalore</p>
+            <p>Graduated with a CGPA of 7.9 . Was also part of the soccer team that won 2 x winners medal in intramural sports activites.</p>
+        </div>
+      </div><!--//item-->
+    
+  </div>
+  
+
+
+        </div>
+    </section>
+    <section class="awards-interests wrap" id="awards">
+        
+
+  <div class="awards-container container-block">
+    <h3 class="container-block-title">
+      Awards
+    </h3>
+    
+        
+         <li>&lt;a target="_new" href=https://www.hackerrank.com/certificates/f52e9f13b7d7&gt;Problem Solving - Advanced HackerRank*&lt;/a&gt;</li>
+        
+    
+        
+          <li>2 x Winner Medals in Football during graduation</li>
+        
+    
+        
+          <li>Received Regional Chess &amp; Football player certificate during highschool</li>
+        
+    
+    </div>
+
+
+        
+
+  <div class="interests-container container-block">
+    <h3 class="container-block-title">
+      Interests
+    </h3>
+    <div class="grid grid-max-content-1fr grid-gar-2">
+    
+        <div>
+                
+                <li>Problem Solving</li>
+                
+                <li>Dota 2</li>
+                
+        </div>
+    
+        <div>
+                
+                <li>Football</li>
+                
+                <li>Chess</li>
+                
+        </div>
+    
+    </div>
+  </div>
+  
+
+    </section>
+</section>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    &lt;footer class="bg-black color-white"&gt;
+        &lt;div class="p-2-1 text-right wrap" style="font-size: 12px;"&gt;
+            designed by - Avan Sharma
+        &lt;/div&gt;
+    &lt;/footer&gt;
+</code></pre></div></div>
+
+:ET

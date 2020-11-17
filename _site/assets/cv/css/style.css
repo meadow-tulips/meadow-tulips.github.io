@@ -1,0 +1,65 @@
+* {
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.wrap {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header  {
+    padding: 1.5rem 0;
+    text-align: center;
+}
+
+.profile-picture {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 0 auto;
+    background:url('../images/profile.jpg') no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+section .item {
+    padding: 0 1rem;
+}
+
+section.work-education .container-block-title {
+    letter-spacing: .2em;
+}
+
+
+h3.container-block-title {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 1.25rem;
+    color: purple;
+    font-weight: bolder;
+}
+
+.item {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+
+
+
+/****  MEDIA QUERIES - GENERAL *****/
+
+@media only screen and (min-width: 600px) {
+    section.work-education {
+        font-size: 1rem;
+    }
+    .item {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}

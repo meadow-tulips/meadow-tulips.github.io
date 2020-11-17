@@ -1,0 +1,30 @@
+---
+title: Online CV
+layout: cv
+profileName: Avan Sharma
+designation: Front End Developer
+---
+{% include navigation.html %}
+{% include main.html %}
+
+<section class="wrapper">
+    <!-- {% include header.html %} -->
+    <section class="work-education" id="work-exp">
+        <div class="main">
+            <h3 class="container-block-title text-center py-2 border-bottom">
+                EXPERIENCE
+            </h3>
+            {% include work.html %}
+            <h3 class="container-block-title text-center py-2 border-bottom border-top">
+                EDUCATION
+            </h3>
+            {% include education.html %}
+
+        </div>
+    </section>
+    <section class="awards-interests wrap" id="awards">
+        {% include awards.html %}
+        {% include interests.html %}
+    </section>
+</section>
+{% include footer.html %}

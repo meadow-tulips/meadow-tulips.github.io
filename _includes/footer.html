@@ -1,0 +1,8 @@
+{% assign cv = site.data.profile.cv %}
+    {% if cv %}
+        <footer class="bg-black color-white">
+            <div class="p-2-1 text-right wrap" style="font-size: 12px;">
+                designed by - {{ cv.name }}
+            </div>
+        </footer>
+    {% endif %}

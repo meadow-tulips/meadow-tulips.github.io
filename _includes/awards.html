@@ -1,0 +1,16 @@
+{% assign awards = site.data.profile.cv.awards %}
+{% if awards %}
+  <div class="awards-container container-block">
+    <h3 class="container-block-title">
+      Awards
+    </h3>
+    {% for item in awards %}
+        {% if item.ref %}
+         <li><a target="_new" href={{ item.ref }}>{{ item.display }}</a></li>
+        {% elsif item.display  %}
+          <li>{{ item.display }}</li>
+        {% else %}
+        {% endif %}
+    {% endfor %}
+    </div>
+{% endif %}

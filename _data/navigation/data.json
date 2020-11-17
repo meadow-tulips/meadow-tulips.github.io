@@ -1,0 +1,6 @@
+{
+    "navigationArray": [{ "display" : "About", "ref": "#"}, 
+        {"display":"Work & Experience", "ref": "#work-exp"},
+        {"display":"Contact us", "ref":"#"},
+        {"display" : "Awards", "ref": "#awards"}]
+}

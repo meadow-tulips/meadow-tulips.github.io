@@ -1,0 +1,18 @@
+{% assign experience = site.data.profile.cv.experience %}
+{% if experience %}
+<div class="container my-3">
+    {% for work in experience %}
+    <div class="item three-column-layout wrap">
+      <div class="layout-item right">
+        <p class="heading">{{ work.time }}</p>
+        <p class="heading-2 capitalize">{{ work.position }}</p>
+     </div>
+     <div class="dummyline"><span class="bullet"></span></div>
+     <div class="layout-item left">
+          <p class="heading-2">{{ work.company }}</p>
+          <p>{{ work.description }}</p>
+      </div>
+    </div><!--//item-->
+    {% endfor %}
+  </div>
+  {% endif %}

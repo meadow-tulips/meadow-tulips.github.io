@@ -1,0 +1,10 @@
+{% assign cv = site.data.profile.cv %}
+    {% if cv %}
+        <header>
+            <div class="profile-picture" >
+            </div>
+            <h1 class="profile-name">{{ cv.name }}</h1>
+            <p class="designation">{{cv.designation}}</p>
+        </header>
+
+    {% endif %}

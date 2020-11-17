@@ -1,0 +1,18 @@
+{% assign education = site.data.profile.cv.education %}
+{% if education %}
+ <div class="container my-3">
+    {% for graduation in education %}
+    <div class="item three-column-layout wrap">
+        <div class="layout-item right">
+          <p class="heading">{{ graduation.time }}</p>
+          <p class="heading-2 capitalize">{{ graduation.degree }}</p>
+       </div>
+       <div class="dummyline"><span class="bullet"></span></div>
+       <div class="layout-item left">
+            <p class="heading-2">{{ graduation.university }}</p>
+            <p>{{ graduation.description }}</p>
+        </div>
+      </div><!--//item-->
+    {% endfor %}
+  </div>
+  {% endif %}

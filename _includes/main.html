@@ -1,0 +1,16 @@
+{% assign cv = site.data.profile.cv %}
+    {% if cv %}
+        <div class="cover">
+            <div class="relative">
+                <div class="cover-content color-white">
+                        <span class="block greeting">Hello, I'm</span>
+                        <span class="block name">{{ cv.name }}</span>
+                        <span class="block designation">{{ cv.designation }}</span>
+                </div>
+            <div class="parallax-container">
+            </div>
+        </div>
+            {% include sidebar-profile.html %}
+        </div>
+
+    {% endif %}
