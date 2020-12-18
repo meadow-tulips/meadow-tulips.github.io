@@ -33,5 +33,6 @@
         {"display": "2 x Winner Medals in Football during graduation"}, 
         {"display": "Received Regional Chess & Football player certificate during highschool"}],
     "interests": [["Problem Solving", "Dota 2"], [ "Football", "Chess"]],
-    "social-media": ["linkedin", "github", "facebook", "twitter"]
+    "social-media": [{ "type": "linkedin", "value": "https://www.linkedin.com/in/avan-sharma-7127451bb/"}, { "type": "github", "value": "https://github.com/meadow-tulips"}],
+    "download": "../assets/cv/download/Resume.pdf"
 }
