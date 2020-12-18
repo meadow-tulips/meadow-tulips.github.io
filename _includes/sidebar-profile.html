@@ -2,6 +2,7 @@
 {% assign education = site.data.profile.cv.education %}
 {% assign highestEducation = education[0] %}
 {% assign socialMedia = site.data.profile.cv.social-media %}
+{% assign download = site.data.profile.cv.download %}
 
     {% if cv %}
         <div class="text-center pt-1 px-1 color-white sidebar-profile">
@@ -19,14 +20,23 @@
            <div class="icons">
                <ul>
                    {% for item in socialMedia %}
-                   <li><img src="../assets/cv/images/social-media-icons/{{item}}.svg"></li>
+                   <li>    {% if item.value %}
+                       <a href={{ item.value }}>
+                           <img src="../assets/cv/images/social-media-icons/{{ item.type }}.svg">
+                        </a>
+                        {% endif %}
+                    </li>
                    {% endfor %}
                </ul>
            </div>
            {% endif %}
-           <button class="p-1 my-2 bg-white color-purple">
-               Download Resume
-           </button>
+           {% if download %}
+                <a href={{ download }} download="Avan_Sharma_resume">
+                    <button class="p-1 my-2 bg-white color-purple">
+                        Download Resume
+                    </button>
+               </a>
+           {% endif %}
         </div>
 
     {% endif %}
