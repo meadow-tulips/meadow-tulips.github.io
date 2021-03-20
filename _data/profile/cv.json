@@ -17,10 +17,17 @@
 
     "experience": [{
         "company": "Zopsmart",
-        "position": "Front end developer",
-        "time": "2018 - Current",
+        "position": "Software Engineer",
+        "time": "2019 Dec - Current",
         "description": "Have been part of the Zopsmart's frontend team for the past two years now & have worked on React.js, Next.js, Typescript, Redux based projects. Part of my responsibility also includes mentoring new hires, helping them understand the basic work flow of the product, doing their code-reviews."
-    }, {
+    }, 
+    {
+        "company": "MountBlue Technologies",
+        "position": "Software Engineer",
+        "time": "2018 Aug - 2019 Nov",
+        "description": "Did undergo 3 months of hands on training here on javascript, reactJs, redux, electron and upon successfully finishing the training, was deployed at Zopsmart Technologies."
+    },
+    {
         "company": "Monty Holding",
         "position": "Intern",
         "time": "2016 May - 2017 June",
