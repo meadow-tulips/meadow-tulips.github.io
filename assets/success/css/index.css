@@ -1,0 +1,17 @@
+.success {
+    width: 80%;
+    max-width: 320px;
+    height: 65vh;
+    margin: 3rem auto;
+    position: relative;
+    text-align: center;
+}
+
+.success span.success-icon {
+    width: 100%;
+    height: 32px;
+    background:url('../images/checked.svg') no-repeat;
+    background-size: initial;
+    background-position: center center;
+    display: block;
+}
