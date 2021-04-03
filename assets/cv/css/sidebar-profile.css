@@ -38,11 +38,29 @@
 }
 
 .sidebar-profile .icons ul li img {
-    fill: #ffffff;
+    opacity: .6;
+}
+
+
+
+.sidebar-profile .icons ul li img:hover {
+    opacity: 1;
 }
 
 
 
 .sidebar-profile .icons ul li:not(:last-child) {
     margin-right: .5rem;
+}
+
+
+.sidebar-profile .download {
+    background-color: inherit;
+    border: 1px dotted #ffffff;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.sidebar-profile .download:hover {
+    background: forestgreen;
 }
