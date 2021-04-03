@@ -1,5 +1,6 @@
 .form-wrapper {
-    width: 512px;
+    width: 90%;
+    max-width: 512px;
     margin: 3rem auto;
     min-height: 60vh;
 }
