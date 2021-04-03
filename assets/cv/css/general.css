@@ -129,20 +129,36 @@
 
 .border-top {
     border-top: 1px solid #d8e8e6;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
 }
 
 .border-bottom {
-    border-bottom:  1px solid #d8e8e6;
+    border-top: none;
+    border-bottom: 1px solid #d8e8e6;
+    border-left: none;
+    border-right: none;
 }
 
 .border-left {
-    border-left:  1px solid #d8e8e6;
+    border-top: none;
+    border-bottom: none;
+    border-left: 1px solid #d8e8e6;
+    border-right: none;
+
 }
 
 .border-right {
-    border-right:  1px solid #d8e8e6;
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+    border-right: 1px solid #d8e8e6;;
 }
 
+.border-none {
+    border: none;
+}
 
 
 /*************************/
@@ -155,6 +171,10 @@
 
     .bg-purple {
         background: purple;
+    }
+
+    .bg-lightShade {
+        background-color: rgba(43, 73,117, 1);
     }
 
 /*************************/
