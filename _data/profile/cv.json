@@ -16,9 +16,19 @@
     }],
 
     "experience": [{
+        "company": "Mountblue Technologies",
+        "position": "Consultant",
+        "time": "2022 Feb - Current",
+        "description": "Currently working here as a Consultant. Mentoring students for startup javascript roles . Doing pair programming with them, doing doubt clearing sessions for them are few of the daily chores."
+    },{
+        "company": "F.P. Tech",
+        "position": "Software Engineer",
+        "time": "2021 June - 2022 Feb",
+        "description": "Worked in FP Tech Science for 7 months. Integrating services to frontend, writing custom middlewares, developing internal dashboard, doing peer code reviews were some of the responsibilities that I took."
+    },{
         "company": "Zopsmart",
         "position": "Software Engineer",
-        "time": "2019 Dec - Current",
+        "time": "2019 Dec - 2021 June",
         "description": "Have been part of the Zopsmart's frontend team for the past two years now & have worked on React.js, Next.js, Typescript, Redux based projects. Part of my responsibility also includes mentoring new hires, helping them understand the basic work flow of the product, doing their code-reviews."
     }, 
     {
