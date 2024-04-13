@@ -16,10 +16,15 @@
     }],
 
     "experience": [{
+        "company": "Ace Online",
+        "position": "SDE - 2",
+        "time": "2022 Nov - Current",
+        "description": "Currently working here as a part of frontend development team of 2. Built a test taking experience, worked on complete revamp of their major frontend facing application. Integrated services with their CMS."
+    },{
         "company": "Mountblue Technologies",
         "position": "Mentor",
-        "time": "2022 Feb - Current",
-        "description": "Currently working here as a Mentor. Mentoring students for startup javascript roles . Doing pair programming with them, doing doubt clearing sessions for them are few of the daily chores."
+        "time": "2022 Feb - 2022 Nov",
+        "description": "Worked here as a Mentor, mentoring students for startup javascript roles . Doing pair programming with them, doing doubt clearing sessions were few of the daily chores."
     },{
         "company": "F.P. Tech",
         "position": "Software Engineer",
