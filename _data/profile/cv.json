@@ -19,29 +19,18 @@
         "company": "Ace Online",
         "position": "SDE - 2",
         "time": "2022 Nov - Current",
-        "description": "Currently working here as a part of frontend development team of 2. Built a test taking experience, worked on complete revamp of their major frontend facing application. Integrated services with their CMS."
-    },{
-        "company": "Mountblue Technologies",
-        "position": "Mentor",
-        "time": "2022 Feb - 2022 Nov",
-        "description": "Worked here as a Mentor, mentoring students for startup javascript roles . Doing pair programming with them, doing doubt clearing sessions were few of the daily chores."
+        "description": "Currently working here as a part of frontend development team of 2. Configured, built & have been maintaining their new test taking experience, worked on complete revamp of their major frontend facing application. Integrated services with their CMS. Implemented search, bitbucket trigger based deployment practise across all frontend projects."
     },{
         "company": "F.P. Tech",
         "position": "Software Engineer",
         "time": "2021 June - 2022 Feb",
         "description": "Worked in FP Tech Science for 7 months. Integrating services to frontend, writing custom middlewares, developing internal dashboard, doing peer code reviews were some of the responsibilities that I took."
     },{
-        "company": "Zopsmart",
+        "company": "Zopsmart & Mountblue",
         "position": "Software Engineer",
         "time": "2019 Dec - 2021 June",
-        "description": "Have been part of the Zopsmart's frontend team for the past two years now & have worked on React.js, Next.js, Typescript, Redux based projects. Part of my responsibility also includes mentoring new hires, helping them understand the basic work flow of the product, doing their code-reviews."
+        "description": "Did undergo 3 months of hands on training here on javascript, reactJs, redux, electron and upon successfully finishing the training, was deployed at Zopsmart Technologies. As part of the Zopsmart's frontend team I have worked on React.js, Next.js, Typescript, Redux based projects. Part of my responsibility also includes mentoring new hires, helping them understand the basic work flow of the product, doing their code-reviews."
     }, 
-    {
-        "company": "MountBlue Technologies",
-        "position": "Software Engineer",
-        "time": "2018 Aug - 2019 Nov",
-        "description": "Did undergo 3 months of hands on training here on javascript, reactJs, redux, electron and upon successfully finishing the training, was deployed at Zopsmart Technologies."
-    },
     {
         "company": "Monty Holding",
         "position": "Intern",
